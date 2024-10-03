@@ -54,7 +54,7 @@ def year_versus(day_dataframe):
     return registered_user_df
 
 # Load data
-all_df = pd.read_csv('D:/KULIAHAJA/AnalisisDataPhyton/new_day.csv')
+all_df = pd.read_csv('new_day.csv')
 
 # Convert datetime columns
 datetime_columns = ["date-day"]
