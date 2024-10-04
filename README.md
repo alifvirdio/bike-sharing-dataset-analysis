@@ -1,14 +1,15 @@
-# Bike Sharing Dashboard
+# Bike Sharing Dataset Analysis with Streamlit
 
-## Setup environment
+
+## Setup Environment
 ```
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+cd submission
+pip install -r requirements.txt
+cd dashboard
+streamlit run dashboard.py
 ```
 
-## Run steamlit app
+## Streamlit Link
 ```
-streamlit run dashboard/dashboard.py
-
-## Run steamlit app
-https://bike-sharing-analysis-alifvirdio.streamlit.app/
+https://bike-sharing-analysis-dataset.streamlit.app/ 
 ```
